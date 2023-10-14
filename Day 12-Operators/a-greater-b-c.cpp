@@ -8,7 +8,7 @@ int main()
     cin>>a;
     cout<<"Enter the value of 'b': ";
     cin>>b;
-    cout<<"Enter the value of 'c': ";
+    // cout<<"Enter the value of 'c': ";
     cin>>c;
 
     if(a>b && a>c)

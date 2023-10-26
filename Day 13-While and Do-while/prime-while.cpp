@@ -8,13 +8,20 @@ int main()
     cin>>n;
 
     int i=2;
+    bool flag=false;
     while(i<=n-1)
     {
         if(n%i==0)
         {
-        cout<<i<<" ";
+        flag=true;
+        cout<<"Not Prime";
+        break;
         }
         i=i+1;
+    }
+    if(flag==false)
+    {
+        cout<<"Prime";
     }
     
 

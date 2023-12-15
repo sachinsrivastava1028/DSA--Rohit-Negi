@@ -8,10 +8,10 @@ public:
         {
             rem=n%2;
             rem=rem^1;
-            n/=2;
+             n/=2;
             ans=ans+rem*mul;
             mul*=2;
         }
         return ans;
     }
-};
+}; 

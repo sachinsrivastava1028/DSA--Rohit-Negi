@@ -8,7 +8,7 @@ public:
         while(num!=0)
         {
             rem=num%10;
-            num/=10;
+             num/=10;
             ans+=rem;            
         }
         num=ans;

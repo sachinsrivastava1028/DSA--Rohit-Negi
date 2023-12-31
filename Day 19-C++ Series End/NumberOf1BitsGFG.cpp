@@ -7,7 +7,7 @@ using namespace std;
         
         while(N>0)
         {
-            N=N&N-1;
+            N=N&(N-1);
             c++;
         }
         return c;
